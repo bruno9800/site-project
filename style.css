@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(150, 188, 219);
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+
+header {
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+article {
+    max-width: 500px;
+}
+
+article h2 {
+    text-align: center;
+    padding: 1rem;
+}
+article p {
+    text-align: justify;
+}
